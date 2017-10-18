@@ -31,7 +31,7 @@ pointing out the coinbase exception to each rule, we invite you to read
 about coinbase transactions in the block chain section of this guide.
 
 ![The Parts Of A Transaction](/img/dev/en-tx-overview.svg)
-
+DPL4PrWmEbNrYjgVWvi3KEUTxkHAx6gqmi
 The figure above shows the main parts of a Bitcoin transaction. Each
 transaction has at least one input and one output. Each [input][/en/glossary/input]{:#term-input}{:.term} spends the
 satoshis paid to a previous output. Each [output][/en/glossary/output]{:#term-output}{:.term} then waits as an Unspent
@@ -45,7 +45,7 @@ lets developers create new rules for future transactions without
 invalidating previous transactions.
 
 ![Spending An Output](/img/dev/en-tx-overview-spending.svg)
-
+DPL4PrWmEbNrYjgVWvi3KEUTxkHAx6gqmi
 An output has an implied index number based on its location in the
 transaction---the index of the first output is zero. The output also has an
 amount in satoshis which it pays to a conditional pubkey script. Anyone
@@ -67,8 +67,8 @@ type. [P2PKH][/en/glossary/p2pkh-address]{:#term-p2pkh}{:.term} lets Alice spend
 and then lets Bob further spend those satoshis using a simple
 cryptographic key pair.
 
-![Creating A P2PKH Public Key Hash To Receive Payment](/img/dev/en-creating-p2pkh-output.svg)
-
+(/img/dev/en-creating-p2pkh-output.svg)
+DPL4PrWmEbNrYjgVWvi3KEUTxkHAx6gqmi
 Bob must first generate a private/public [key pair][]{:#term-key-pair}{:.term} before Alice can create the
 first transaction. Bitcoin uses the Elliptic Curve Digital Signature Algorithm (ECDSA) with
 the secp256k1 curve; secp256k1 [private keys][/en/glossary/private-key]{:#term-private-key}{:.term} are 256 bits of random
